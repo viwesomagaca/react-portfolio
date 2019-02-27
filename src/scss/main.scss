@@ -1,0 +1,62 @@
+@import '../scss/about-me/aboutme.scss';
+@import '../scss/projects/projects.scss';
+@import '../scss/nav/index.scss';
+@import '../scss/buttons.scss';
+@import '../scss/flippable.scss';
+@import '../scss/content.scss';
+// @import '../grid/simple-grid.scss';
+
+.home-cover {
+    text-align: center;
+    background-color: white;
+    height: 523px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      h4{
+          margin-top:12%;
+      }
+    img{
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        margin-top: 2%;
+        border-radius: 50%;
+    }
+}
+
+.bio{
+    background-color:darkmagenta;
+    color: white;
+    height: 500px;
+}
+
+.specs{
+    margin-top: -11%;
+    background-color: white;
+    border-radius: 33px;
+    box-shadow: 1px 2px 42px rgba(0, 0, 0, .5);
+
+    .row{
+        padding: 88px 0;
+
+        .column{
+            text-align: center;
+
+            h4,h6{
+                color: darkmagenta;
+            }
+        }
+        .left{
+            border-left: 1px solid darkmagenta;
+        }
+    }
+}
+
+hr {
+    border-style: dashed;
+    border-width: 2px;
+}
+
+
+
